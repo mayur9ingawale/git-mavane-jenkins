@@ -14,7 +14,7 @@ pipeline {
             }
         stage('three') {
             steps {
-                echo '**********Integration test*************"
+                echo '**********Integration test*************'
             }
             }
         stage('Four') {
