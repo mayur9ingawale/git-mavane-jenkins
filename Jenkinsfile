@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('One') {
             steps {
-                echo 'Building the code'
+                echo '***********Building the code********'
             }
             }
         stage('Two') {
             steps {
-                echo 'Testing  the code'
+                echo '*************Testing  the code*************'
             }
             }
         stage('three') {
             steps {
-                echo "Integration test"
+                echo '**********Integration test*************"
             }
             }
         stage('Four') {
             steps {
-                echo 'Deploying the code'
+                echo '************Deploying the code**************'
             }
 
         }
